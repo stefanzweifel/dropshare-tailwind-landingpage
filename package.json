@@ -4,15 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch-poll": "npm run watch -- --watch-poll",
-    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "keywords": [],
+  "keywords": ["dropshare", "tailwind", "tailwind-css"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.1.1",
     "glob-all": "^3.1.0",
@@ -22,5 +19,8 @@
     "style-ext-html-webpack-plugin": "^3.4.5",
     "tailwindcss": "^0.3.0",
     "webpack": "^3.9.1"
+  },
+  "dependencies": {
+    "tailwindcss": "^0.3.0"
   }
 }

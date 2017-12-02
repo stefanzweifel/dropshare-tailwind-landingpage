@@ -29,6 +29,7 @@ mix.webpackConfig({
                     path.join(__dirname, './dist/**/*.html'),
                 ]
             ),
+            whitelist: ['img'],
             extractors: [
                 {
                     extractor: class {

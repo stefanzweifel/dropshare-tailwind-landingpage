@@ -1,21 +1,5 @@
 @tailwind preflight;
 
-/**
- * Here you would add any of your custom component classes; stuff that you'd
- * want loaded *before* the utilities so that the utilities could still
- * override them.
- *
- * Example:
- *
- * .btn { ... }
- * .form-input { ... }
- *
- * Or if using a preprocessor or `postcss-import`:
- *
- * @import "components/buttons";
- * @import "components/forms";
- */
-
 html,
 body {
     @apply .font-sans .bg-black .text-white;
@@ -37,7 +21,7 @@ body {
 }
 
 .image {
-    @apply .shadow-lg .w-auto .bg-white;
+    @apply .shadow-lg .w-auto .bg-white .bg-center;
     min-width: 200px;
     min-height: 200px;
     max-height: 75vh;

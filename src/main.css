@@ -23,7 +23,7 @@ body {
 img {
     @apply .shadow-lg .w-auto .bg-white .bg-center;
     min-width: 200px;
-    min-height: 200px;
+    min-height: 50px;
     max-height: 75vh;
 }
 

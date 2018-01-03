@@ -17,10 +17,10 @@
     "laravel-mix": "^1.6.2",
     "purgecss-webpack-plugin": "^0.13.0",
     "style-ext-html-webpack-plugin": "^3.4.5",
-    "tailwindcss": "^0.3.0",
+    "tailwindcss": "^0.4.0",
     "webpack": "^3.9.1"
   },
   "dependencies": {
-    "tailwindcss": "^0.3.0"
+    "tailwindcss": "^0.4.0"
   }
 }

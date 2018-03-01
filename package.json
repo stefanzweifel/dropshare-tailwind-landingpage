@@ -7,7 +7,11 @@
     "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "keywords": ["dropshare", "tailwind", "tailwind-css"],
+  "keywords": [
+    "dropshare",
+    "tailwind",
+    "tailwind-css"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -17,8 +21,7 @@
     "laravel-mix": "^2.0.0",
     "purgecss-webpack-plugin": "^0.20.0",
     "style-ext-html-webpack-plugin": "^3.4.7",
-    "tailwindcss": "^0.4.1",
-    "webpack": "^3.10.0"
+    "tailwindcss": "^0.4.1"
   },
   "dependencies": {
     "tailwindcss": "^0.4.1"

@@ -21,9 +21,9 @@
     "laravel-mix": "^2.1.14",
     "purgecss-webpack-plugin": "^1.4.0",
     "style-ext-html-webpack-plugin": "^4.0.1",
-    "tailwindcss": "^0.7.0"
+    "tailwindcss": "^0.7.2"
   },
   "dependencies": {
-    "tailwindcss": "^0.7.0"
+    "tailwindcss": "^0.7.2"
   }
 }

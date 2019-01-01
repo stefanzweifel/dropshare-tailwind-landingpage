@@ -1,4 +1,4 @@
-const { mix } = require('laravel-mix');
+const mix = require('laravel-mix');
 const tailwindcss = require('tailwindcss');
 const purgeCss = require('purgecss-webpack-plugin');
 const glob = require('glob-all');

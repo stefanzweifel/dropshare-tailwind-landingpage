@@ -1817,21 +1817,15 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  dependencies:
-    ms "2.0.0"
-
-debug@^3.2.5:
+debug@^3.1.0, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   dependencies:
     ms "^2.1.1"
 
-debug@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
+debug@^4.1.0, debug@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   dependencies:
     ms "^2.1.1"
 
@@ -5417,12 +5411,12 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-style-ext-html-webpack-plugin@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/style-ext-html-webpack-plugin/-/style-ext-html-webpack-plugin-4.0.1.tgz#a87aedb5aeef52d1fd0952d2e372df860ecb3dfd"
+style-ext-html-webpack-plugin@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/style-ext-html-webpack-plugin/-/style-ext-html-webpack-plugin-4.1.2.tgz#6e05cda52d933adee1af62bbaf907f876dc00582"
   dependencies:
     clean-css "^4.2.1"
-    debug "^4.1.0"
+    debug "^4.1.1"
 
 style-loader@^0.23.1:
   version "0.23.1"

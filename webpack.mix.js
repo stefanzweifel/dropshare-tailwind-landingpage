@@ -11,13 +11,13 @@ mix.disableNotifications();
  * Build CSS with Tailwind
  */
 mix.postCss('src/main.css', 'dist/css', [
-  tailwindcss('./tailwind.js'),
+  tailwindcss('./tailwind.config.js'),
 ]);
 
 
 /**
  * Additional Webpack Configuration
- * 
+ *
  * - Remove not used CSS with purgecss
  * - Inline CSS with HtmlWebpackPlugin
  */

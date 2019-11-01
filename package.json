@@ -24,6 +24,6 @@
     "tailwindcss": "^0.7.4"
   },
   "dependencies": {
-    "tailwindcss": "^0.7.4"
+    "tailwindcss": "^1.1.3"
   }
 }

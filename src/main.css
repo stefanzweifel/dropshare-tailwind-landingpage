@@ -1,4 +1,4 @@
-@tailwind preflight;
+@tailwind base;
 
 html,
 body {
@@ -8,17 +8,17 @@ body {
 }
 
 .wrapper {
-    @apply .h-screen .flex .justify-center .items-center .border-t-4 .border-green;
+    @apply .h-screen .flex .justify-center .items-center .border-t-4 .border-green-500;
 }
 
 .button {
-    @apply .uppercase .no-underline .text-white .border-2 .bg-green .border-green .py-2 .px-4 .font-semibold .rounded .shadow-md .inline-block;
+    @apply .uppercase .no-underline .text-white .border-2 .bg-green-500 .border-green-500 .py-2 .px-4 .font-semibold .rounded .shadow-md .inline-block;
     transition: all .15s ease;
 }
 
 .button:hover,
 .button:focus {
-    @apply .border-green-dark .bg-green-dark .shadow-lg;
+    @apply .border-green-700 .bg-green-700 .shadow-lg;
     transform: translateY(-1px);
 }
 
@@ -32,7 +32,10 @@ img {
 }
 
 .meta-information {
-    @apply .text-grey-dark .text-sm;
+    @apply .text-gray-700 .text-sm;
 }
+
+@tailwind components;
+
 
 @tailwind utilities;

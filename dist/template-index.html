@@ -13,32 +13,28 @@
         <meta property="og:image" content="__PREVIEWURL__">
         <link rel="canonical" href="__LANDINGPAGEURL__">
     </head>
-    <body>
+    <body class="font-sans text-nearly-black bg-white leading-normal">
 
         <div class="flex flex-col">
-            <div class="wrapper leading">
+            <div class="h-screen flex justify-center items-center leading">
+                <main class="max-w-2xl p-6 text-center">
+                    <a href="__PREVIEWURL__"
+                        class="block mb-4 flex justify-center items-center">
+                        __PREVIEW__
+                    </a>
 
-                    <main class="max-w-2xl p-6 text-center">
-                        <a href="__PREVIEWURL__"
-                            class="block mb-4">
-                            __PREVIEW__
-                        </a>
+                    <a
+                        href="__PATH__"
+                        download="__FILENAME__"
+                        class="button uppercase no-underline text-nearly-black border-2 bg-crazy-yellow border-crazy-yellow py-2 px-4 font-semibold rounded-full shadow-md inline-block hover:shadow-lg hover:border-crazy-yellow-700 hover:bg-crazy-yellow-700"
+                    >
+                        Download
+                    </a>
 
-
-                            <a
-                                href="__PATH__"
-                                download="__FILENAME__"
-                                class="button"
-                            >
-                                Download
-                            </a>
-
-
-                        <footer class="mt-4 mb-4 meta-information">
-                            __FILESIZE__ (Shared at: <time>__SHAREDATE__</time>)
-                        </footer>
-
-                    </main>
+                    <footer class="mt-4 mb-4 text-gray-700 text-sm">
+                        __FILESIZE__ (Shared at: <time>__SHAREDATE__</time>)
+                    </footer>
+                </main>
             </div>
         </div>
     </body>

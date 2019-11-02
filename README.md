@@ -4,8 +4,7 @@
 
 Landingpage you can use with [Dropshare](https://getdropsha.re/). Built with [Tailwind CSS](https://tailwindcss.com/)
 
-<img width="1128" alt="screen-shot-2017-12-02-13-59-39" src="https://user-images.githubusercontent.com/1080923/38172537-31c21042-35ae-11e8-9059-728a947cddf6.png">
-
+![Screenshot](https://raw.githubusercontent.com/stefanzweifel/dropshare-tailwind-landingpage/master/screenshot.jpg)
 
 ## Usage
 

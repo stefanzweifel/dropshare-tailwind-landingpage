@@ -23,6 +23,6 @@
     "style-ext-html-webpack-plugin": "^4.1.2"
   },
   "dependencies": {
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^1.2.0"
   }
 }

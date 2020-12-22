@@ -1,6 +1,6 @@
 # Dropshare Landingpage (built with Tailwind CSS)
 
-[![Build Status](https://travis-ci.org/stefanzweifel/dropshare-tailwind-landingpage.svg?branch=master)](https://travis-ci.org/stefanzweifel/dropshare-tailwind-landingpage)
+![Build](https://github.com/stefanzweifel/dropshare-tailwind-landingpage/workflows/Build/badge.svg)
 
 Landingpage you can use with [Dropshare](https://getdropsha.re/). Built with [Tailwind CSS](https://tailwindcss.com/)
 

@@ -1,8 +1,0 @@
-language: node_js
-sudo: false
-dist: trusty
-
-node_js:
-  - node
-
-script: npm run prod
